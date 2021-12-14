@@ -398,14 +398,29 @@ canvas.particles-js-canvas-el {
 .contact_section ul li .fa{
     color: var(--pink-color);
 }
+.contact_section .map_wrapper{
+    position: relative;
+    overflow:hidden;
+    padding: 5%;
+}
+.contact_section .map_wrapper iframe{
+    position: absolute;
+   
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
 @media(max-width:991px)and(min-width:768px){
     .contact_section .heading{
         font-size: 42px;
     }
-   .contact_section .map_wrapper{
-       width: 300;
-       height: 200;
-   }
+     .contact_section .map_wrapper iframe{
+    position: absolute;
+   
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
 }
 
 /* Footer Section */
@@ -485,3 +500,4 @@ canvas.particles-js-canvas-el {
     }
 }
 
+/* Niyali Mukherjee */
